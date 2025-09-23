@@ -1,6 +1,13 @@
-# Topological Data Analysis (TDA) on EEG Signals
+# TOPO-ESA: TOPOLOGY-DRIVEN EEG SIGNAL ANALYSIS FOR COGNITIVE WORKLOAD RECOGNITION
 
-This repository provides code for applying Topological Data Analysis (TDA) to EEG (and other time series) signals using Takens Embedding and Vietoris–Rips Persistence. It extracts persistence diagrams and barcodes, saving them for visualization and further analysis.
+This repository provides code for applying Topological Data Analysis (TDA) to EEG (for cognitive worload recognition under various physical activity levels) signals using Takens Embedding and Vietoris–Rips Persistence. It extracts topology-driven interpretable features(Total Peristence and Persistent Entopy) from topologival summaries (persistence diagrams and barcodes).
+
+# For validation WAUC dataset [1] is utilized.
+
+[1] Isabela Albuquerque, Abhishek Tiwari, Mark Parent, Raymundo Cassani, Jean-Franc¸ois Gagnon, Daniel Lafond, S´ebastien Tremblay, and Tiago H Falk, “Wauc: a multi-modal database for mental workload assessment under physical activity,” Frontiers in Neuroscience, vol.
+ 14, pp. 549524, 2020.
+
+EEG data were collected from 48 participants(25 male, 13 female; meanage 27.4±6.6years) using an eight-channel Enobiowireless headset (Neuroelectrics, Spain) during cognitive tasks performed at three physical activity levels: no movement, medium (treadmill 3km/h or cycling 50rpm), and high(treadmil l5km/h or cycling 70rpm). CWL was induced with the MATB-II task at low and high difficulty. Each 18-minute session included baseline, warm up, task execution, and subjective evaluation, with workload ratings from NASA-TLX. In this study, only activity intensity is considered (treadmill and cycling combined), yielding six experimental conditions across two workload and three physical activity(PW) levels for binary CWL classification. EEG signals were recorded at 500Hz from eight electrodes(P3,T9,AF7,FP1,FP2,AF8,T10,P4) with Fpz and Nz as references. A fourth-order zero-phase Butterworthfilter (1–35Hz) and additional preprocessing were applied to remove noise and motion artifacts.The cleaned signals were then segmented into 4.5-second non-overlapping epochs for topology-drivenfeatureextraction.
 
 ## 📂 Repository Structure
 
