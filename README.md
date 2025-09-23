@@ -1,6 +1,6 @@
 # TOPO-ESA: TOPOLOGY-DRIVEN EEG SIGNAL ANALYSIS FOR COGNITIVE WORKLOAD RECOGNITION
 
-This repository provides code for applying Topological Data Analysis (TDA) to EEG (for cognitive worload recognition under various physical activity levels) signals using Takens Embedding and Vietoris–Rips Persistence. It extracts topology-driven interpretable features(Total Peristence and Persistent Entopy) from topologival summaries (persistence diagrams and barcodes).
+This repository provides code for applying topology-driven framework to EEG signals (for cognitive worload recognition under various physical activity levels) signals using Takens Embedding and Vietoris–Rips Persistence. It extracts topology-driven interpretable features(Total Peristence and Persistent Entopy) from topological summaries (persistence diagrams and barcodes).
 
 # For validation WAUC dataset [1] is utilized.
 
